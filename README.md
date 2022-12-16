@@ -1,0 +1,1 @@
+# Articulatory_decay
