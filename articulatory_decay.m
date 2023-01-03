@@ -340,4 +340,3 @@ if show_graph %(strcmpi(plot_signal,'plot'))
     
     end
 end
-
