@@ -43,6 +43,10 @@ max_F0 = 400;
 
 p = 12;
 
+%% take first audio channel
+
+x = x(:,1);
+
 %% resample to 16 kHz
 fs_new = 16000;
 if not(fs == fs_new)
@@ -58,7 +62,7 @@ X = segmentation(x, winlen*fs_new, winover*fs_new);
 [n_rows,n_cols] = size(X);
 
 %% Voicing (F0 misplace)
-vo = [praat_voicing(x, fs, min_F0, max_F0, n_cols)]';
+vo = [praat_voicing(x, fs_new, min_F0, max_F0, n_cols)]';
 
 %% energy
 energy = sum(X.^2);
@@ -89,13 +93,13 @@ for c = 1:n_cols
     z_vector = roots(a);
     
     z_plus = z_vector(imag(z_vector) > 0);
-    f_poles = (angle(z_plus)/(2*pi))*fs;
+    f_poles = (angle(z_plus)/(2*pi))*fs_new;
     formants = sort(f_poles);
     
     %% transfer function
     
-    f=(1:1:fs/2);
-    Ts=1/fs;            %sampling period
+    f=(1:1:fs_new/2);
+    Ts=1/fs_new;            %sampling period
     fs_d=Ts.*f;         %discretization of frequency range
     Ws=2.*pi.*fs_d;     %discrete angular frequency
     z=exp(1i.*Ws);
@@ -302,7 +306,7 @@ if show_graph %(strcmpi(plot_signal,'plot'))
         if voiced == 0
         legend('frequency response','local maxima','local minima','poles')    
         else
-            legend('frekvenční odezva',...
+            legend('frequency response',...
                 ['RFA1 = ' num2str(round(RFA_1_vector,2)) ' dB'],...
                 ['RFA2 = ' num2str(round(RFA_2_vector,2)) ' dB'],...
             'local maxima','local minima','poles')
@@ -317,10 +321,10 @@ if show_graph %(strcmpi(plot_signal,'plot'))
         figure(1)
         clf()
         subplot(211)
-        plot((1:length(x))/fs,x)
+        plot((1:length(x))/fs_new,x)
         xlabel('t [s]')
         ylabel('A')
-        xlim([0 length(x)/fs])
+        xlim([0 length(x)/fs_new])
         grid on
         subplot(212)
         plot(energy)
