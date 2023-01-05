@@ -1,7 +1,7 @@
 function [out] = articulatory_decay(x,fs,n_th_seg, show_graph)
 
-% This function returns the resonant frequencies attenuations RFA1, RFA2
-% and frequencies of formants F1, F2.
+% This function returns the resonant frequencies attenuations RFA1, RFA2,
+% number of local maxima N_peaks and frequencies of formants F1, F2.
 
 % INPUT
 % x ... vector of samples
@@ -19,7 +19,7 @@ function [out] = articulatory_decay(x,fs,n_th_seg, show_graph)
 %               second formant and the local minima of the valley before
 % out.RFA2 ... vertical distance in the LPC spectra between the 
 %               second formant and the local minima of the valley after 
-% out.N_peaks ... number of local maximas in the LPC spectra
+% out.N_peaks ... number of local maxima in the LPC spectrum
 % out.F1 ... frequency of the frist formant
 % out.F2 ... frequency of the second fromant
 
