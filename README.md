@@ -1,7 +1,6 @@
 # Articulatory decay
 
-Extraction of features quantifying resonance frequency attenuation.
-
+This software was developed for the assessment of articulatory decay in patients with Parkinson's disease, based on resonances in the vocal tract. Features extracted from voice or speech recordings quantify the distance in the linear predictive coding (LPC) spectrum between the resonance of the second formant and the local minimum before this formant (RFA1), the distance between the second formant and the local minimum after this formant (RFA2), and the number of local maxima in the frequency response of the vocal tract representing the resonances (#locMAX).
 > Conditions for features extraction from a segment:
 >
 > 1. The fundamental speech frequency is between 75 Hz and 400 Hz. The software used to calculate this frequency is PRAAT.
