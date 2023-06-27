@@ -16,4 +16,8 @@ Extraction of features quantifying resonance frequency attenuation.
 
 ---
 
+Article: [Assessment of articulation impairment in patients with Parkinson disease based on resonances in the vocal tract](http://www.elektrorevue.cz/cz/clanky/zpracovani-signalu/0/hodnoceni-poruch-artikulace-pacientu-s-parkinsonovou-nemoci-zalozene-na-rezonancich-v-hlasovem-traktu--assessment-of-articulation-impairment-in-patients-with-parkinson-disease-based-on-resonances-in-the-vocal-tract-/)
+
+---
+
 <sub>Supported by the Quality Internal Grants of BUT (project KInG, reg. no. CZ.02.2.69/0.0/0.0/19\_073/0016948; financed from OP VVV).</sub>
