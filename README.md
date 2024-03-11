@@ -14,8 +14,9 @@ This software was developed for the assessment of articulatory decay in patients
 * the main function is the file: **articulatory_decay.m**
 
 ---
-
-Article: [Assessment of articulation impairment in patients with Parkinson disease based on resonances in the vocal tract](http://www.elektrorevue.cz/cz/clanky/zpracovani-signalu/0/hodnoceni-poruch-artikulace-pacientu-s-parkinsonovou-nemoci-zalozene-na-rezonancich-v-hlasovem-traktu--assessment-of-articulation-impairment-in-patients-with-parkinson-disease-based-on-resonances-in-the-vocal-tract-/)
+Article: will be added
+<!-- Article: %[Assessment of articulation impairment in patients with Parkinson disease based on resonances in the vocal tract](http://www.elektrorevue.cz/cz/clanky/zpracovani-signalu/0/hodnoceni-poruch-artikulace-pacientu-s-parkinsonovou-nemoci-zalozene-na-rezonancich-v-hlasovem-traktu--assessment-of-articulation-impairment-in-patients-with-parkinson-disease-based-on-resonances-in-the-vocal-tract-/)
+ -->
 
 ---
 
