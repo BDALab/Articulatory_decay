@@ -19,4 +19,4 @@ Article:
 
 ---
 
-<sub>Supported by the Quality Internal Grants of BUT (project KInG, reg. no. CZ.02.2.69/0.0/0.0/19\_073/0016948; financed from OP VVV).</sub>
+<sub>This work was supported by the EU – Next Generation EU (project no. LX22NPO5107 (MEYS)), and by the Quality Internal Grants of BUT (project KInG, reg. no. CZ.02.2.69/0.0/0.0/19_073/0016948; financed from OP VVV).</sub>
