@@ -10,7 +10,9 @@ This software is designed to assess articulatory decay in patients with Parkinso
   - **RFA2**: Distance between the second formant resonance and the local minimum *following* it.
   - **#locMAX**: Number of local maxima in the vocal tract’s frequency response, representing resonances.
 
-![AR](https://user-images.githubusercontent.com/85240065/210371801-a1d2a273-9480-4b5b-87dc-f9619dc795a4.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/85240065/210371801-a1d2a273-9480-4b5b-87dc-f9619dc795a4.png" alt="AR" />
+</p>
 
 - The main function is located in the file: **articulatory_decay.m**
 
